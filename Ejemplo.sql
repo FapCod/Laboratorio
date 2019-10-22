@@ -3,7 +3,7 @@ create procedure ActualizarUser(
  @idUsario varchar(15),
  @nombres varchar(50),
  @apellidos varchar(50),
- @tipousuario char,
+ @tipousuario varchar(20),
  @clave char(50),
  @estado bit
 )
@@ -14,7 +14,7 @@ where idUsuario= @idUsario
 end 
 go
 
-
+drop procedure ActualizarUser
 
 create procedure EliminarUser(
 @idusuario varchar(20)

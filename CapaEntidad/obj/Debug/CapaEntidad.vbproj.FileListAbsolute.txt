@@ -1,0 +1,9 @@
+C:\Users\Frank\Documents\Visual Studio 2013\Projects\Laboratorio\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Users\Frank\Documents\Visual Studio 2013\Projects\Laboratorio\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Users\Frank\Documents\Visual Studio 2013\Projects\Laboratorio\CapaEntidad\bin\Debug\CapaEntidad.xml
+C:\Users\Frank\Documents\Visual Studio 2013\Projects\Laboratorio\CapaEntidad\obj\Debug\CapaEntidad.Resources.resources
+C:\Users\Frank\Documents\Visual Studio 2013\Projects\Laboratorio\CapaEntidad\obj\Debug\CapaEntidad.vbproj.GenerateResource.Cache
+C:\Users\Frank\Documents\Visual Studio 2013\Projects\Laboratorio\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Users\Frank\Documents\Visual Studio 2013\Projects\Laboratorio\CapaEntidad\obj\Debug\CapaEntidad.xml
+C:\Users\Frank\Documents\Visual Studio 2013\Projects\Laboratorio\CapaEntidad\obj\Debug\CapaEntidad.pdb
+C:\Users\Frank\Documents\Visual Studio 2013\Projects\Laboratorio\CapaEntidad\obj\Debug\CapaEntidad.vbprojResolveAssemblyReference.cache

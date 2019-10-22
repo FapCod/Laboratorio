@@ -170,6 +170,7 @@ Partial Class Form1
         '
         'cbotipo
         '
+        Me.cbotipo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cbotipo.FormattingEnabled = True
         Me.cbotipo.Items.AddRange(New Object() {"Administrador", "Empleado"})
         Me.cbotipo.Location = New System.Drawing.Point(285, 240)

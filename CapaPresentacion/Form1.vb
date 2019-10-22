@@ -16,6 +16,7 @@ Public Class Form1
         Dim objneg As New negUsuario
         If objneg.nuevo(objent) Then
             MsgBox("REGISTRO EXITOSO")
+            Ver()
         Else
             MsgBox("ERROR", vbCritical)
         End If

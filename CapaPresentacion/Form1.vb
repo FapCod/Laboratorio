@@ -103,5 +103,13 @@ Public Class Form1
     
     Private Sub btnVer_Click(sender As Object, e As EventArgs) Handles btnVer.Click
         txtcontrasena.PasswordChar = ""
+        btnVer.Visible = False
+        btnOcultar.Visible = True
+    End Sub
+
+    Private Sub btnOcultar_Click(sender As Object, e As EventArgs) Handles btnOcultar.Click
+        txtcontrasena.PasswordChar = "*"
+        btnOcultar.Visible = False
+        btnVer.Visible = True
     End Sub
 End Class

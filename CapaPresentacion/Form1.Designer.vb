@@ -43,6 +43,7 @@ Partial Class Form1
         Me.txtBuscar = New System.Windows.Forms.TextBox()
         Me.btnVer = New System.Windows.Forms.Button()
         Me.Label7 = New System.Windows.Forms.Label()
+        Me.btnOcultar = New System.Windows.Forms.Button()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -258,7 +259,7 @@ Partial Class Form1
         '
         'btnVer
         '
-        Me.btnVer.Location = New System.Drawing.Point(498, 282)
+        Me.btnVer.Location = New System.Drawing.Point(498, 283)
         Me.btnVer.Name = "btnVer"
         Me.btnVer.Size = New System.Drawing.Size(39, 27)
         Me.btnVer.TabIndex = 19
@@ -276,6 +277,15 @@ Partial Class Form1
         Me.Label7.Size = New System.Drawing.Size(38, 28)
         Me.Label7.TabIndex = 20
         Me.Label7.Text = "ID"
+        '
+        'btnOcultar
+        '
+        Me.btnOcultar.Location = New System.Drawing.Point(498, 282)
+        Me.btnOcultar.Name = "btnOcultar"
+        Me.btnOcultar.Size = New System.Drawing.Size(39, 27)
+        Me.btnOcultar.TabIndex = 21
+        Me.btnOcultar.Text = "Ocul"
+        Me.btnOcultar.UseVisualStyleBackColor = True
         '
         'Form1
         '
@@ -304,6 +314,7 @@ Partial Class Form1
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.FlowLayoutPanel1)
+        Me.Controls.Add(Me.btnOcultar)
         Me.Name = "Form1"
         Me.Text = "Form1"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -332,5 +343,6 @@ Partial Class Form1
     Friend WithEvents txtBuscar As System.Windows.Forms.TextBox
     Friend WithEvents btnVer As System.Windows.Forms.Button
     Friend WithEvents Label7 As System.Windows.Forms.Label
+    Friend WithEvents btnOcultar As System.Windows.Forms.Button
 
 End Class

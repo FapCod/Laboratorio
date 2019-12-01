@@ -112,4 +112,9 @@ Public Class Form1
         btnOcultar.Visible = False
         btnVer.Visible = True
     End Sub
+
+    Private Sub btnReporte_Click(sender As Object, e As EventArgs) Handles btnReporte.Click
+        Dim rep As New ReporteUsuario
+        rep.Show()
+    End Sub
 End Class

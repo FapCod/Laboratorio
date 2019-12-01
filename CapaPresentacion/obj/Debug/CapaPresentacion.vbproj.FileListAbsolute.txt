@@ -18,3 +18,6 @@ C:\Users\Frank\Documents\Visual Studio 2013\Projects\Laboratorio\CapaPresentacio
 C:\Users\Frank\Documents\Visual Studio 2013\Projects\Laboratorio\CapaPresentacion\bin\Debug\CapaDatos.xml
 C:\Users\Frank\Documents\Visual Studio 2013\Projects\Laboratorio\CapaPresentacion\obj\Debug\CapaPresentacion.vbprojResolveAssemblyReference.cache
 C:\Users\Frank\Documents\Visual Studio 2013\Projects\Laboratorio\CapaPresentacion\obj\Debug\CapaPresentacion.Form1.resources
+C:\Users\Frank\Documents\Visual Studio 2013\Projects\Laboratorio\CapaPresentacion\obj\Debug\CapaPresentacion.ReporteUsuario.resources
+C:\Users\Frank\Documents\Visual Studio 2013\Projects\Laboratorio\CapaPresentacion\obj\Debug\RdlCompile.cache
+C:\Users\Frank\Documents\Visual Studio 2013\Projects\Laboratorio\CapaPresentacion\obj\Debug\RdlCompile.compiled

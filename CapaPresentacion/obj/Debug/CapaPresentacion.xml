@@ -6,7 +6,59 @@ CapaPresentacion
 </name>
 </assembly>
 <members>
-<member name="P:CapaPresentacion.My.Resources.Resources.ResourceManager">
+<member name="T:CapaPresentacion.UsuariosDataSet.UsuarioDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CapaPresentacion.UsuariosDataSet.UsuarioRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CapaPresentacion.UsuariosDataSet.UsuarioRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CapaPresentacion.UsuariosDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:CapaPresentacion.UsuariosDataSetTableAdapters.UsuarioTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:CapaPresentacion.UsuariosDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(CapaPresentacion.UsuariosDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:CapaPresentacion.UsuariosDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(CapaPresentacion.UsuariosDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:CapaPresentacion.UsuariosDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(CapaPresentacion.UsuariosDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:CapaPresentacion.UsuariosDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:CapaPresentacion.UsuariosDataSetTableAdapters.TableAdapterManager.UpdateAll(CapaPresentacion.UsuariosDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:CapaPresentacion.UsuariosDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:CapaPresentacion.UsuariosDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:CapaPresentacion.UsuariosDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:CapaPresentacion.My.Resources.Resources.ResourceManager">
 	<summary>
   Returns the cached ResourceManager instance used by this class.
 </summary>

@@ -44,6 +44,7 @@ Partial Class Form1
         Me.btnVer = New System.Windows.Forms.Button()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.btnOcultar = New System.Windows.Forms.Button()
+        Me.btnReporte = New System.Windows.Forms.Button()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -241,7 +242,7 @@ Partial Class Form1
         Me.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnBuscar.Font = New System.Drawing.Font("Gadugi", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnBuscar.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.btnBuscar.Location = New System.Drawing.Point(921, 37)
+        Me.btnBuscar.Location = New System.Drawing.Point(930, 37)
         Me.btnBuscar.Name = "btnBuscar"
         Me.btnBuscar.Size = New System.Drawing.Size(235, 54)
         Me.btnBuscar.TabIndex = 17
@@ -287,12 +288,28 @@ Partial Class Form1
         Me.btnOcultar.Text = "Ocul"
         Me.btnOcultar.UseVisualStyleBackColor = True
         '
+        'btnReporte
+        '
+        Me.btnReporte.BackColor = System.Drawing.Color.DeepSkyBlue
+        Me.btnReporte.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
+        Me.btnReporte.FlatAppearance.BorderSize = 0
+        Me.btnReporte.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnReporte.Font = New System.Drawing.Font("Gadugi", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnReporte.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.btnReporte.Location = New System.Drawing.Point(981, 509)
+        Me.btnReporte.Name = "btnReporte"
+        Me.btnReporte.Size = New System.Drawing.Size(235, 54)
+        Me.btnReporte.TabIndex = 22
+        Me.btnReporte.Text = "REPORTE"
+        Me.btnReporte.UseVisualStyleBackColor = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Orange
         Me.ClientSize = New System.Drawing.Size(1228, 573)
+        Me.Controls.Add(Me.btnReporte)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.btnVer)
         Me.Controls.Add(Me.txtBuscar)
@@ -344,5 +361,6 @@ Partial Class Form1
     Friend WithEvents btnVer As System.Windows.Forms.Button
     Friend WithEvents Label7 As System.Windows.Forms.Label
     Friend WithEvents btnOcultar As System.Windows.Forms.Button
+    Friend WithEvents btnReporte As System.Windows.Forms.Button
 
 End Class
